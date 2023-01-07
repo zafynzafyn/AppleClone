@@ -1,0 +1,211 @@
+#navBar .mainCont {
+  position: relative;
+  top: 0;
+  z-index: 1;
+}
+#navBar .mainCont .subCont {
+  height: 40px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.795);
+  position: absolute;
+}
+#navBar .mainCont .subCont ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 7px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#navBar .mainCont .subCont ul li {
+  list-style: none;
+  font-size: 11px;
+  color: white;
+}
+#navBar .mainCont .subCont ul li img {
+  height: 20px;
+  width: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#navBar .mainCont .subCont ul li:hover {
+  cursor: pointer;
+}
+
+#mainHero {
+  position: relative;
+}
+#mainHero .h1cont {
+  position: absolute;
+  top: 320px;
+  left: 280px;
+  z-index: 1;
+  display: flex;
+}
+#mainHero .h1cont h1 {
+  color: white;
+  font-size: 2.9rem;
+}
+#mainHero .mainHeroCont {
+  position: relative;
+  text-align: center;
+  min-height: 240px;
+}
+#mainHero .mainHeroCont .heroCont {
+  height: auto;
+  min-height: 689px;
+  width: 100%;
+}
+#mainHero .mainHeroCont .heroCont img {
+  left: 50%;
+  margin-left: -719.5px;
+  position: absolute;
+  top: 0;
+  width: 1439px;
+  z-index: 0;
+}
+
+#mac, #iPhone, #appleWatch, #iPad, #iPodAndAppleTv {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+#mac h1, #iPhone h1, #appleWatch h1, #iPad h1, #iPodAndAppleTv h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+#mac .mcMainDiv, #iPhone .mcMainDiv, #appleWatch .mcMainDiv, #iPad .mcMainDiv, #iPodAndAppleTv .mcMainDiv {
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+}
+#mac .mcMainDiv .contRow, #iPhone .mcMainDiv .contRow, #appleWatch .mcMainDiv .contRow, #iPad .mcMainDiv .contRow, #iPodAndAppleTv .mcMainDiv .contRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 12px;
+}
+#mac .mcMainDiv .contRow .prodCont, #iPhone .mcMainDiv .contRow .prodCont, #appleWatch .mcMainDiv .contRow .prodCont, #iPad .mcMainDiv .contRow .prodCont, #iPodAndAppleTv .mcMainDiv .contRow .prodCont {
+  background-color: rgb(245, 245, 247);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  display: grid;
+  justify-content: center;
+  width: 350px;
+  align-items: center;
+}
+#mac .mcMainDiv .contRow .prodCont .mimgCont img, #iPhone .mcMainDiv .contRow .prodCont .mimgCont img, #appleWatch .mcMainDiv .contRow .prodCont .mimgCont img, #iPad .mcMainDiv .contRow .prodCont .mimgCont img, #iPodAndAppleTv .mcMainDiv .contRow .prodCont .mimgCont img {
+  height: 300px;
+  width: 350px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#mac .mcMainDiv .contRow .prodCont .detailCont, #iPhone .mcMainDiv .contRow .prodCont .detailCont, #appleWatch .mcMainDiv .contRow .prodCont .detailCont, #iPad .mcMainDiv .contRow .prodCont .detailCont, #iPodAndAppleTv .mcMainDiv .contRow .prodCont .detailCont {
+  display: grid;
+  justify-content: center;
+}
+#mac .mcMainDiv .contRow .prodCont .detailCont .nameOfMacPrd, #iPhone .mcMainDiv .contRow .prodCont .detailCont .nameOfMacPrd, #appleWatch .mcMainDiv .contRow .prodCont .detailCont .nameOfMacPrd, #iPad .mcMainDiv .contRow .prodCont .detailCont .nameOfMacPrd, #iPodAndAppleTv .mcMainDiv .contRow .prodCont .detailCont .nameOfMacPrd {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 40px;
+  display: inline-flex;
+  justify-content: center;
+}
+#mac .mcMainDiv .contRow .prodCont .detailCont .PriceOfMacPrd, #iPhone .mcMainDiv .contRow .prodCont .detailCont .PriceOfMacPrd, #appleWatch .mcMainDiv .contRow .prodCont .detailCont .PriceOfMacPrd, #iPad .mcMainDiv .contRow .prodCont .detailCont .PriceOfMacPrd, #iPodAndAppleTv .mcMainDiv .contRow .prodCont .detailCont .PriceOfMacPrd {
+  font-size: 14px;
+  margin-bottom: 40px;
+  display: inline-flex;
+  justify-content: center;
+}
+#mac .mcMainDiv .contRow .prodCont:hover, #iPhone .mcMainDiv .contRow .prodCont:hover, #appleWatch .mcMainDiv .contRow .prodCont:hover, #iPad .mcMainDiv .contRow .prodCont:hover, #iPodAndAppleTv .mcMainDiv .contRow .prodCont:hover {
+  cursor: pointer;
+}
+#mac .mcMainDiv .contRow .prodCont:hover .nameOfMacPrd, #iPhone .mcMainDiv .contRow .prodCont:hover .nameOfMacPrd, #appleWatch .mcMainDiv .contRow .prodCont:hover .nameOfMacPrd, #iPad .mcMainDiv .contRow .prodCont:hover .nameOfMacPrd, #iPodAndAppleTv .mcMainDiv .contRow .prodCont:hover .nameOfMacPrd {
+  color: rgb(9, 138, 212);
+}
+
+footer {
+  background-color: rgb(245, 245, 247);
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
+
+.disclaimer {
+  font-size: 12px;
+  color: #8b8b8e;
+  padding-right: 300px;
+}
+
+.footerMainCont {
+  width: 1000px;
+}
+.footerMainCont .fSubCont {
+  width: 100%;
+}
+.footerMainCont .fSubCont .hrline {
+  width: 100%;
+  height: 0.75px;
+  background-color: #b2b2b6;
+  margin-bottom: 10px;
+}
+
+.fgreeting {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.fgreeting img {
+  width: 20px;
+  height: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.fgreeting p {
+  font-size: 12px;
+  color: #8b8b8e;
+}
+
+.fDCont {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.fDCont .Dcont {
+  font-size: 12px;
+  line-height: 25px;
+}
+.fDCont .Dcont .TitleD {
+  color: #646466;
+  font-weight: bold;
+}
+.fDCont .Dcont .detail {
+  color: #8b8b8e;
+}
+.fDCont .Dcont .detail:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,107 @@
+#mainHero {
+    position: relative;
+    .h1cont {
+        position: absolute;
+        top: 320px;
+        left: 280px;
+        z-index: 1;
+        display: flex;
+        h1 {
+            color: white;
+            font-size: 2.90rem;
+        }
+    }
+    .mainHeroCont {
+        position: relative;
+        text-align: center;
+        min-height: 240px;
+        
+        .heroCont {
+        height: auto;
+        min-height: 689px;
+        width: 100%;
+        img {
+            left: 50%;
+            margin-left: -719.5px;
+            position: absolute;
+            top: 0;
+            width: 1439px;
+            z-index: 0;
+        }
+    }
+    
+    }
+    
+}
+
+// products
+
+#mac, #iPhone, #appleWatch, #iPad, #iPodAndAppleTv {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 2.50rem;
+    }
+
+    .mcMainDiv {
+        margin-top: 20px;
+        display: grid;
+        justify-content: center;      
+        .contRow {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-top: 12px;
+            .prodCont {
+                background-color: rgb(245,245,247);
+                border-radius: 15px;
+                -webkit-border-radius: 15px;
+                -moz-border-radius: 15px;
+                -ms-border-radius: 15px;
+                -o-border-radius: 15px;
+                display: grid;
+                justify-content: center;
+                width: 350px;
+                align-items: center;
+
+                .mimgCont {
+                    img {
+                        height: 300px;
+                        width: 350px;
+                        object-fit: contain;
+                    }
+                }
+
+                .detailCont {
+                    display: grid ;
+                    justify-content: center;
+
+                    .nameOfMacPrd {
+                        font-weight: bold;
+                        font-size: 14px;
+                        margin-bottom: 40px;
+                        display: inline-flex;
+                        justify-content: center;
+                    }
+
+                    .PriceOfMacPrd {
+                        font-size: 14px;
+                        margin-bottom: 40px;
+                        display: inline-flex;
+                        justify-content: center;
+
+                    }
+                }
+                &:hover {
+                    cursor: pointer;
+                    .nameOfMacPrd {
+                        color: rgb(9, 138, 212);
+                    }
+                }
+
+            }
+        }
+    }
+}
